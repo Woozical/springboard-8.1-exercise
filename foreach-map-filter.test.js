@@ -48,7 +48,7 @@ describe("#vowelCount", function() {
     expect(vowelCount("tim")).toEqual({ i: 1 });
     expect(vowelCount("matt")).toEqual({ a: 1 });
     expect(vowelCount("hmmm")).toEqual({});
-    expect(vowelCount("i am awesome and so are you")).toEqual({
+    expect(vowelCount("I am awesome and so are you")).toEqual({
       i: 1,
       a: 4,
       e: 3,
